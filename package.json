@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./path/to/your/app.js"
+    "start": "nodemon /Users/ashleepitock/wikistack/app.js"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "html-template-tag": "^3.2.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "pg": "^8.2.1",
+    "sequelize": "^6.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
